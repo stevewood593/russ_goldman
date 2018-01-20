@@ -1,0 +1,36 @@
+{
+
+  "name": "luka8088/phops",
+  "description": "PHP Standard Library Extensions.",
+  "homepage": "https://gitlab.com/luka8088/phops",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.4.x-dev"
+    }
+  },
+
+  "autoload": {
+    "files": [
+      "code/luka8088/phops/convert.php",
+      "code/luka8088/phops/metaContext.php",
+      "code/luka8088/phops/scopeExit.php",
+      "code/luka8088/phops/strict.php",
+      "code/luka8088/phops/traits.php"
+    ]
+  }
+
+}

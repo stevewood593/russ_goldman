@@ -1,0 +1,33 @@
+{
+
+  "name": "luka8088/attribute",
+  "description": "PHP Attributes.",
+  "homepage": "https://gitlab.com/luka8088/attribute-php",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk (luka8088)",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "ext-tokenizer": "*"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.2.x-dev"
+    }
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "code/"
+    }
+  }
+
+}

@@ -4,10 +4,10 @@
 */
 
 // an email address that will be in the From field of the email
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Steve Wood <steve@penguintime.net>';
 
-// an email address that will receive the email1 with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+// an email address that will receive the email with the output of the form
+$sendTo = 'Steve Wood <steve@penguintime.net>';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -32,11 +32,11 @@ error_reporting(E_ALL & ~E_NOTICE);
 try
 {
 
-  if(count($_POST) ==0) throw new \Exception('Form is empty');
+  if(count($_POST) == 0) throw new \Exception('Form is empty');
   
   $emailText = "You have a new message from your contact form\n================================\n";
   
-  foreach ($_POST as $key => value) {
+  foreach ($_POST as $key => $value) {
   // if the field exists in the $fields array, include it in the email
     if (isset($fields[$key])) {
       $emailText .= "$fields[$key]: $value\n";
@@ -45,7 +45,7 @@ try
 
   // All the necessary headers for the email
   $headers = array('Content-Type: text/plain; charset="UTF-8";',
-    'From: '. $from,
+    'From: ' . $from,
     'Reply-To: '. $from,
     'Return-Path: ' . $from,
   );

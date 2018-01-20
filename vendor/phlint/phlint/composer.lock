@@ -1,0 +1,297 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "175499e76736dc4dc5703f0b2ce0aa93",
+    "packages": [
+        {
+            "name": "luka8088/attribute",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/luka8088/attribute-php.git",
+                "reference": "5fb1a3eb50fec25879513dccddbbda2b5b4f99de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v3/projects/luka8088%2Fattribute-php/repository/archive.zip?sha=5fb1a3eb50fec25879513dccddbbda2b5b4f99de",
+                "reference": "5fb1a3eb50fec25879513dccddbbda2b5b4f99de",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "": "code/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luka Unuk (luka8088)",
+                    "email": "luka8088@nrsk.net"
+                }
+            ],
+            "description": "PHP Attributes.",
+            "homepage": "https://gitlab.com/luka8088/attribute-php",
+            "time": "2017-06-21T20:54:56+00:00"
+        },
+        {
+            "name": "luka8088/extension-interface",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/luka8088/extension-interface-php.git",
+                "reference": "4a1918a3957f03385b959a67f9e9535ec8445b38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/luka8088%2Fextension-interface-php/repository/archive.zip?sha=4a1918a3957f03385b959a67f9e9535ec8445b38",
+                "reference": "4a1918a3957f03385b959a67f9e9535ec8445b38",
+                "shasum": ""
+            },
+            "require": {
+                "luka8088/attribute": "^0.1 || ^0.2",
+                "php": "^5.4 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "": "code/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luka Unuk (luka8088)",
+                    "email": "luka8088@nrsk.net"
+                }
+            ],
+            "description": "PHP Extension Interface.",
+            "homepage": "https://gitlab.com/luka8088/extension-interface-php",
+            "time": "2017-08-27T00:33:11+00:00"
+        },
+        {
+            "name": "luka8088/phops",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/luka8088/phops.git",
+                "reference": "946eac846d5e820e56feb6b025df171b4d8e8703"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/luka8088%2Fphops/repository/archive.zip?sha=946eac846d5e820e56feb6b025df171b4d8e8703",
+                "reference": "946eac846d5e820e56feb6b025df171b4d8e8703",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "code/luka8088/phops/convert.php",
+                    "code/luka8088/phops/metaContext.php",
+                    "code/luka8088/phops/scopeExit.php",
+                    "code/luka8088/phops/strict.php",
+                    "code/luka8088/phops/traits.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luka Unuk",
+                    "email": "luka8088@nrsk.net"
+                }
+            ],
+            "description": "PHP Standard Library Extensions.",
+            "homepage": "https://gitlab.com/luka8088/phops",
+            "time": "2017-09-05T21:48:07+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2017-09-02T17:10:46+00:00"
+        },
+        {
+            "name": "phlint/phif",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/phlint/phif.git",
+                "reference": "b5a0bbc74e74e8d1e65ea54a24de5c312f124e12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/phlint%2Fphif/repository/archive.zip?sha=b5a0bbc74e74e8d1e65ea54a24de5c312f124e12",
+                "reference": "b5a0bbc74e74e8d1e65ea54a24de5c312f124e12",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "nikic/php-parser": "^4.0@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "": "code/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luka Unuk (luka8088)",
+                    "email": "luka8088@nrsk.net"
+                }
+            ],
+            "description": "PHP Standard Declarations.",
+            "homepage": "https://gitlab.com/phlint/phif",
+            "time": "2017-08-27T21:53:41+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "b7666e9b438027a1ea0e1ee813ec5042d5d7f6f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/b7666e9b438027a1ea0e1ee813ec5042d5d7f6f0",
+                "reference": "b7666e9b438027a1ea0e1ee813ec5042d5d7f6f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-29T21:54:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.5 || ^7.0"
+    },
+    "platform-dev": []
+}

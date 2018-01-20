@@ -1,0 +1,42 @@
+{
+
+  "name": "phlint/phlint",
+  "description": "PHP code analyzer and tester.",
+  "homepage": "https://gitlab.com/phlint/phlint/",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk (luka8088)",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "luka8088/attribute": "^0.2",
+    "luka8088/extension-interface": "^0.3",
+    "luka8088/phops": "^0.4",
+    "phlint/phif": "^0.1",
+    "nikic/php-parser": "^3.0",
+    "symfony/process": "^3.0"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.3.x-dev"
+    }
+  },
+
+  "bin": [
+    "phlint"
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "": "code/"
+    }
+  }
+
+}
